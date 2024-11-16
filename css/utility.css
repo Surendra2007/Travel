@@ -1,0 +1,38 @@
+@media (max-width:544px) {
+    nav{ 
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-bar{
+        padding: 9px 10px;
+    }
+    .main-div h1{
+        display: none;
+    }
+}
+@media (max-width:755px) {
+    .box{
+        width: fit-content;
+        flex-direction: column;
+    }
+    .text-box{
+        width: 100%;
+    }
+    .img-box{
+        width: 100%;
+    }
+    .img-box img{
+        width: 100%;
+    }
+
+    .box2{
+        flex-direction: column-reverse
+    }
+}
+@media (width<=686px) {
+    .container .boxlast{
+        flex-direction: column;
+        gap: 20px;
+        box-shadow: none;
+    }
+}

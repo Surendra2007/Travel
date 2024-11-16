@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 9px;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+}
+a {
+  font-size: 15px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263238;
+}
+
+.nav-bar {
+  padding: 9px 90px;
+}
+
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  padding: 9px;
+  font-size: 9px;
+  color: #f4f4f4;
+  float: right;
+  margin-top: 1rem;
+  letter-spacing: 0.15rem;
+}
+.nav-bar a {
+  text-transform: uppercase;
+  color: #f4f4f4;
+  padding-bottom: 0.3rem;
+}
+
+.nav-bar a:hover {
+  border-bottom: 1px solid white;
+}
+
+.logo {
+  color: #f4f4f4;
+  font-size: 30px;
+  float: left;
+  letter-spacing: 0.15rem;
+  padding: 9px;
+}
+/* main */
+.about {
+  padding: 50px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  letter-spacing: 0.15rem;
+  font-size: 1.6rem;
+}
+hr {
+  padding: 2px;
+  background-color: #e63946;
+}
+.about-p {
+  padding-top: 10px;
+  color: grey;
+}
+.mid {
+  color: gray;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+.mid ul li i {
+  color: #e63946;
+}
+li {
+  list-style: none;
+  padding: 5px 0px;
+}
+.num {
+  padding-top: 30px;
+}
+.num-1 {
+  color: #e63946;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.num-2 {
+  color: rgba(10, 7, 7, 0.626);
+  letter-spacing: 0.15rem;
+}
+.num-1 ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.last {
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+  background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+  color: white;
+  letter-spacing: 0.15rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.7;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.last button {
+  border: 2px solid white;
+  background-color: #e63946;
+  padding: 20px 30px;
+}
+
+
+/* Media Query */
+@media (max-width:544px) {
+  nav{ 
+      flex-direction: column;
+      width: 100%;
+  }
+  .nav-bar{
+      padding: 9px 10px;
+  }
+}
